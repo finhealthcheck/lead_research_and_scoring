@@ -1,18 +1,3 @@
-finhealth_research_task:
-  description: >
-    Conduct a thorough research about {Company} to evaluate their 
-    commitment to financial health and wellness.Do a deep search on the
-    company website, including its about page, annual reports, press releases,
-    board statements and other information on its website relevant to financial
-    health and wellness. Prioritize information in the last 2-3 years, given that the
-    current year is 2025. Only use information that you found in your search. Do 
-    not make up any information that you do not find in your search. 
-  expected_output: >
-    A detailed report on {Company}'s commitment to financial health and wellness, 
-    including all of the relevant information, with links to specific sources that
-    you found the information from. 
-
-
 finhealth_research_task_1:
   description: >
     Conduct a thorough research about {Company} to evaluate their board
@@ -22,10 +7,14 @@ finhealth_research_task_1:
     their board to financial health and wellness. Prioritize information in the \
     last 2-3 years, given that the current year is 2025. Only use information that 
     you found in your search. 
-    Focus your evaluation of {Company} on the following observable criteria:
+    Focus your evaluation of {Company} on the following observable criteria, 
+    in order of decreasing importance:
     - Published strategic plans or annual reports mentioning financial health initiatives
     - Public statements from board members about financial health priorities
-    - Dedicated financial health sections on website/marketing materials.
+    - Dedicated financial health sections on website/marketing materials
+    - Board meeting minutes (if public) discussing financial health programs
+    - Financial health metrics included in public-facing performance reports
+    - Board-approved financial health policies or programs listed publicly
     Do not make up any information that you do not find in your search.Do not be swayed by
     the company's reputation, your personal opinions, or documents that are purely for marketing
     and advertising.Be ruthlessly thorough in considering both the quality and quantity of evidence.
@@ -36,7 +25,125 @@ finhealth_research_task_1:
     ranks in their board commitment to financial health and wellness, with 1 being
     very low evidence, to 5 being an extraordinary amount of evidence. 
     - Give your detailed reasoning behind your rating, organized the criteria listed. 
-    - Include links to specific sources that you found the information from.
+    - VERY IMPORTANT: Include links to specific sources that you found the information from.
+
+I'll create a similar task description using those criteria. Here it is in the same format:
+
+finhealth_research_task_2:
+  description: >
+    Conduct a thorough research about {Company} to evaluate their C-Suite
+    championship to financial health and wellness. Do a deep search of
+    executive social media profiles, industry events, media coverage, and
+    thought leadership content showing the championship of their C-Suite executives
+    to financial health and wellness. Prioritize information in the last 2-3 years,
+    given that the current year is 2025. Only use information that you found in
+    your search.
+    Focus your evaluation of {Company} on the following observable criteria,
+    in order of decreasing importance:
+    - Executive social media presence (LinkedIn, Twitter) featuring financial health content
+    - Speaking engagements at financial health conferences/events
+    - Published articles/interviews about financial health initiatives
+    - Executive participation in financial health working groups/committees
+    - Media coverage quoting executives on financial health topics
+    - Leadership roles in financial health industry organizations
+    Do not make up any information that you do not find in your search. Do not be swayed by
+    the company's reputation, your personal opinions, or posts that are purely for marketing
+    and advertising. Be ruthlessly thorough in considering both the quality and quantity of evidence.
+  expected_output: >
+    A detailed report on {Company}'s C-Suite championship of financial health and wellness,
+    including all of the relevant information in the following structure.
+    - At the beginning of the report, give a rating from 1-5 on how well {Company}
+    ranks in their C-Suite championship of financial health and wellness, with 1 being
+    very low evidence, to 5 being an extraordinary amount of evidence.
+    - Give your detailed reasoning behind your rating, organized by the criteria listed.
+    - VERY IMPORTANT: Include links to specific sources that you found the information from.
+
+finhealth_research_task_3:
+  description: >
+    Conduct a thorough research about {Company} to evaluate their financial health and
+    wellness budget. 
+    Do a deep search on the company website, including its about page, annual reports, press releases,
+    board statements and other information on its website showing its financial health and
+    wellness budget. 
+    Prioritize information in the last 2-3 years, given that the current year is 2025. 
+    Focus your evaluation of {Company} on the following observable criteria,
+    in order of decreasing importance:
+    - Job postings for financial health-related positions
+    - Sponsorship of financial health events/programs
+    - Grant programs supporting financial health initiatives
+    - Published case studies about financial health investments
+    - Partnership announcements with finhealth vendors/organizations
+    - Launch of new financial health products/services
+    Do not make up any information that you do not find in your search.Do not be swayed by
+    the company's reputation, your personal opinions, or documents that are purely for marketing
+    and advertising.Be ruthlessly thorough in considering both the quality and quantity of evidence.
+  expected_output: >
+    A detailed report on {Company}'s financial health and
+    wellness budget,including all of the relevant information in the following structure.
+    - At the beginning of the report, give a rating from 1-5 on how well {Company}
+    ranks in their financial health and wellness budget, with 1 being
+    very low evidence, to 5 being an extraordinary amount of evidence. 
+    - Give your detailed reasoning behind your rating, organized the criteria listed. 
+    - VERY IMPORTANT: Include links to specific sources that you found the information from.
+
+finhealth_research_task_4:
+  description: >
+    Conduct a thorough research about {Company} to evaluate their deep
+    understanding of financial health and wellness. Do a deep search of
+    their educational content, member resources, research participation,
+    innovative solutions, and documented impact showing their expertise
+    in financial health and wellness. Prioritize information in the last 2-3 years,
+    given that the current year is 2025. Only use information that you found in
+    your search.
+    Focus your evaluation of {Company} on the following observable criteria,
+    in order of decreasing importance:
+    - Member-facing financial health resources and tools
+    - Blog posts/articles showing nuanced understanding
+    - Educational content demonstrating financial health expertise
+    - Participation in financial health research/studies
+    - Development of innovative financial health solutions
+    - Recognition/awards for financial health programs
+    - Member testimonials about financial health impact
+    Do not make up any information that you do not find in your search. Do not be swayed by
+    the company's reputation, your personal opinions, or content that is purely for marketing
+    and advertising. Be ruthlessly thorough in considering both the quality and quantity of evidence.
+  expected_output: >
+    A detailed report on {Company}'s deep understanding of financial health and wellness,
+    including all of the relevant information in the following structure.
+    - At the beginning of the report, give a rating from 1-5 on how well {Company}
+    ranks in their deep understanding of financial health and wellness, with 1 being
+    very low evidence, to 5 being an extraordinary amount of evidence.
+    - Give your detailed reasoning behind your rating, organized by the criteria listed.
+    - VERY IMPORTANT: Include links to specific sources that you found the information from.
+
+finhealth_research_task_5:
+  description: >
+    Conduct a thorough research about {Company} to evaluate their status
+    as an early adopter of innovations. Do a deep search of their technology
+    implementations, partnerships, R&D initiatives, pilot programs, and
+    digital transformation efforts showing their commitment to early adoption
+    of innovations. Prioritize information in the last 2-3 years, given that
+    the current year is 2025. Only use information that you found in your search.
+    Focus your evaluation of {Company} on the following observable criteria,
+    in order of decreasing importance:
+    - Implementation of emerging fintech solutions
+    - Beta testing partnerships with technology providers
+    - Innovation lab or R&D initiatives
+    - Early participation in industry pilots
+    - Technology-focused press releases/announcements
+    - Digital transformation success stories
+    - Recognition for innovative programs/solutions
+    Do not make up any information that you do not find in your search. Do not be swayed by
+    the company's reputation, your personal opinions, or announcements that are purely for marketing
+    and advertising. Be ruthlessly thorough in considering both the quality and quantity of evidence.
+  expected_output: >
+    A detailed report on {Company}'s status as an early adopter of innovations,
+    including all of the relevant information in the following structure.
+    - At the beginning of the report, give a rating from 1-5 on how well {Company}
+    ranks as an early adopter of innovations, with 1 being very low evidence,
+    to 5 being an extraordinary amount of evidence.
+    - Give your detailed reasoning behind your rating, organized by the criteria listed.
+    - VERY IMPORTANT: Include links to specific sources that you found the information from.
 
 finhealth_research_task_6:
   description: >
@@ -60,22 +167,55 @@ finhealth_research_task_6:
     ranks in their industry leadership, with 1 being
     very low evidence, to 5 being an extraordinary amount of evidence. 
     - Give your detailed reasoning behind your rating, organized the criteria listed. 
-    - Include links to specific sources that you found the information from.
+    - VERY IMPORTANT: Include links to specific sources that you found the information from. 
+
+finhealth_research_task_7:
+  description: >
+    Conduct a thorough research about {Company} to evaluate their operational
+    integration of financial health and wellness. Do a deep search of their
+    product marketing, member communications, staff training, digital experience,
+    and cross-functional initiatives showing how deeply financial health is
+    woven into their operations. Prioritize information in the last 2-3 years,
+    given that the current year is 2025. Only use information that you found in
+    your search.
+    Focus your evaluation of {Company} on the following observable criteria,
+    in order of decreasing importance:
+    - Financial health metrics in product marketing
+    - Integration of financial health in member communications
+    - Staff training programs on financial health
+    - Member journey documentation including financial health
+    - Branch/digital experience highlighting financial health
+    - Financial health features in mobile/online banking
+    - Cross-functional financial health initiatives
+    Do not make up any information that you do not find in your search. Do not be swayed by
+    the company's reputation, your personal opinions, or materials that are purely for marketing
+    and advertising. Be ruthlessly thorough in considering both the quality and quantity of evidence.
+  expected_output: >
+    A detailed report on {Company}'s operational integration of financial health and wellness,
+    including all of the relevant information in the following structure.
+    - At the beginning of the report, give a rating from 1-5 on how well {Company}
+    ranks in their operational integration of financial health and wellness, with 1 being
+    very low evidence, to 5 being an extraordinary amount of evidence.
+    - Give your detailed reasoning behind your rating, organized by the criteria listed.
+    - VERY IMPORTANT: Include links to specific sources that you found the information from.
 
 finhealth_report_task:
   description: >
     Synthesize all the research done by the lead sales analyst and produce a
     comprehensive report on {Company}'s' Financial Health Maturity. 
   expected_output: >
-    Use the information from the research tasks to create a comprehensive report
-    that includes the following sections:
+    Use the information from the research tasks to create a very comprehensive, very thorough,
+    very detailed report in well-formatted, easy-to-read Markdown format.
+    The report should include the following sections:
     - Introduction to {Company}
     - Overview of {Company}'s commitment to financial health and wellness. Include a rating
     on the scale of 1-5 on how well {Company} ranks in their financial health maturity, with
     1 being low evidence, to 5 being extraordinary evidence. Use the ratings provided by
     your individual data analysts as input, along with your detailed reasoning.
     - Evaluation of each report provided to you by your sales analysts in a separate section. Include
-    your assessment of the report provided to you on this topic, and ALL sources provided
+    your assessment of the report provided to you on this topic, and ALL sources provided, 
+    including links. I want the specific and relevant links in each individual report section, 
+    not just at the end.
     - Conclusion and overall recommendations to your stakeholders. 
     Including all of the relevant information provided by the individual sales
     analysts.Include ALL sources and details from the reports provided to you by the
