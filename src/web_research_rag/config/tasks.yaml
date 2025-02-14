@@ -27,8 +27,6 @@ finhealth_research_task_1:
     - Give your detailed reasoning behind your rating, organized the criteria listed. 
     - VERY IMPORTANT: Include links to specific sources that you found the information from.
 
-I'll create a similar task description using those criteria. Here it is in the same format:
-
 finhealth_research_task_2:
   description: >
     Conduct a thorough research about {Company} to evaluate their C-Suite
