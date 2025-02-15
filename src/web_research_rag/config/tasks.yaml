@@ -26,6 +26,7 @@ finhealth_research_task_1:
     very low evidence, to 5 being an extraordinary amount of evidence. 
     - Give your detailed reasoning behind your rating, organized the criteria listed. 
     - VERY IMPORTANT: Include links to specific sources that you found the information from.
+    The report should be in Markdown format.
 
 finhealth_research_task_2:
   description: >
@@ -55,6 +56,7 @@ finhealth_research_task_2:
     very low evidence, to 5 being an extraordinary amount of evidence.
     - Give your detailed reasoning behind your rating, organized by the criteria listed.
     - VERY IMPORTANT: Include links to specific sources that you found the information from.
+    The report should be in Markdown format.
 
 finhealth_research_task_3:
   description: >
@@ -83,6 +85,7 @@ finhealth_research_task_3:
     very low evidence, to 5 being an extraordinary amount of evidence. 
     - Give your detailed reasoning behind your rating, organized the criteria listed. 
     - VERY IMPORTANT: Include links to specific sources that you found the information from.
+    The report should be in Markdown format.
 
 finhealth_research_task_4:
   description: >
@@ -113,6 +116,7 @@ finhealth_research_task_4:
     very low evidence, to 5 being an extraordinary amount of evidence.
     - Give your detailed reasoning behind your rating, organized by the criteria listed.
     - VERY IMPORTANT: Include links to specific sources that you found the information from.
+    The report should be in Markdown format.
 
 finhealth_research_task_5:
   description: >
@@ -142,6 +146,7 @@ finhealth_research_task_5:
     to 5 being an extraordinary amount of evidence.
     - Give your detailed reasoning behind your rating, organized by the criteria listed.
     - VERY IMPORTANT: Include links to specific sources that you found the information from.
+    The report should be in Markdown format.
 
 finhealth_research_task_6:
   description: >
@@ -166,6 +171,7 @@ finhealth_research_task_6:
     very low evidence, to 5 being an extraordinary amount of evidence. 
     - Give your detailed reasoning behind your rating, organized the criteria listed. 
     - VERY IMPORTANT: Include links to specific sources that you found the information from. 
+    The report should be in Markdown format.
 
 finhealth_research_task_7:
   description: >
@@ -196,6 +202,7 @@ finhealth_research_task_7:
     very low evidence, to 5 being an extraordinary amount of evidence.
     - Give your detailed reasoning behind your rating, organized by the criteria listed.
     - VERY IMPORTANT: Include links to specific sources that you found the information from.
+    The report should be in Markdown format.
 
 finhealth_report_task:
   description: >
